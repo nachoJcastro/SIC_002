@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal"
+            android:background="#FF5559">
+
+            <!-- logo -->
+            <ImageView
+                android:id="@+id/logo_cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                />
+
+            <!-- nombre -->
+            <TextView android:id="@+id/nombre_cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:paddingLeft="20dp"
+                android:layout_gravity="center"
+                android:layout_toEndOf="@+id/logo_cat"
+                android:textColor="#fff"
+                android:layout_alignTop="@+id/btn_pedirayuda"
+                android:layout_toRightOf="@+id/logo_cat" />
+
+            <ImageButton
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_pedirayuda"
+                android:src="@drawable/ic_action_error"
+                android:textColor="#fff"
+                android:background="@drawable/ic_action_error"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.15"
+                android:adjustViewBounds="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp" />
+
+            <TextView android:id="@+id/fecha_cat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:gravity="right"
+                android:text="fecha"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="5dp"
+                android:textColor="#fff" />
+
+
+        </RelativeLayout>
+
+        <!-- fecha -->
+
+
+        <!-- Localizacion -->
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubicación"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dp"
+            android:background="#222"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="17dip"/>
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_gravity="center_vertical" />
+
+    <!--<TextView android:id="@+id/coor_cat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:lines="4"
+        android:gravity="top"
+        android:layout_weight="2.83" />-->
+
+    <!-- info -->
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="false">
+        <TextView android:id="@+id/informacion_cat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:textStyle="italic"
+            android:layout_marginBottom="15dip"
+            android:singleLine="false"
+            android:layout_weight="0.68"
+            android:autoText="false"
+            android:text="Prueba"
+            />
+    </ScrollView>
+
+    </LinearLayout>

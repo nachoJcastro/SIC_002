@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main" >
+
+    <item android:id="@+id/ic_add_user"
+        android:title="Registrarse"
+        android:icon="@drawable/ic_action_add_person"
+        android:showAsAction="ifRoom|collapseActionView"
+        ></item>
+
+    <item android:id="@+id/ic_user"
+        android:title="Perfil"
+        android:icon="@drawable/ic_action_person"
+        android:showAsAction="ifRoom|collapseActionView"
+        ></item>
+//android:actionViewClass="android.widget.SearchView"
+
+    <item
+        android:id="@+id/ic_donar"
+        android:title="Donar"
+        android:icon="@drawable/ic_action_donate"
+        android:showAsAction="ifRoom|collapseActionView"
+        ></item>
+
+    <item
+        android:id="@+id/ic_desaparecido"
+        android:title="Donar"
+        android:icon="@drawable/ic_missing"
+        android:showAsAction="ifRoom|collapseActionView"
+        ></item>
+
+
+     />
+
+</menu>

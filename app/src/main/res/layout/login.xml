@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/wall_login"
+    android:padding="20dp" >
+
+
+    <com.facebook.widget.LoginButton
+       android:id="@+id/fb_login_button"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+        facebook:confirm_logout="false"
+       facebook:fetch_user_info="true"
+        android:layout_marginTop="141dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:id="@+id/btn_iniciar_sesion"
+        android:background="@drawable/ic_iniciar_sesion"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/fb_login_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:id="@+id/btn_registrarse"
+        android:background="@drawable/ic_registrarse"
+        android:layout_below="@+id/btn_iniciar_sesion"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:id="@+id/btn_invitado"
+        android:background="@drawable/ic_invitado"
+        android:layout_below="@+id/btn_registrarse"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp" />
+
+
+
+</RelativeLayout>

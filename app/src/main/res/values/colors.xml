@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray">#FF8c8c8c</color>
+    <color name="android_blue">#D25806</color>
+    <color name="android_darkblue">#D25806</color>
+    <color name="android_green">#FF9A11</color>
+    <color name="android_darkred">#FF9A11</color>
+    <color name="android_yellow">#FFffd75a</color>
+    <color name="android_darkyellow">#FFffc40d</color>
+    <color name="android_orange">#FFffbb33</color>
+    <color name="android_darkorange">#FFff8800</color>
+
+</resources>

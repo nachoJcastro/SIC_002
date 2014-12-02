@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    >
+  <LinearLayout
+        android:id="@+id/imagen_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="75px"
+            android:layout_height="75px"
+            android:layout_marginLeft="5px"
+            android:layout_marginRight="5px"
+            android:layout_marginTop="5px"
+            android:src="@drawable/ic_launcher" >
+        </ImageView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_desaparecido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignTop="@+id/imagen_list"
+        android:layout_toRightOf="@+id/imagen_list"/>
+    <!-- Name Label -->
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingLeft="10dp"
+        android:textSize="15dip"
+
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:layout_alignTop="@+id/imagen_list"
+        android:layout_toRightOf="@+id/imagen_list"
+        android:layout_above="@+id/fecha"
+        />
+    <TextView
+        android:id="@+id/apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingLeft="10dp"
+        android:textSize="15dip"
+
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:layout_alignTop="@+id/nombre"
+        android:layout_toRightOf="@+id/nombre"
+        android:layout_toEndOf="@+id/nombre" />
+
+
+    <TextView
+        android:id="@+id/edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingLeft="10dp"
+        android:textSize="15dip"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:layout_toStartOf="@+id/sexo"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/sexo" />
+
+    <TextView
+        android:id="@+id/sexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingLeft="10dp"
+        android:textSize="15dip"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center|left"
+        android:layout_alignTop="@+id/imagen_list"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <LinearLayout
+        android:id="@+id/list_tags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@+id/imagen_list"
+        android:layout_alignParentLeft="true">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingLeft="5dp"
+        android:textSize="10dip"
+
+        android:layout_gravity="left|center"
+        android:layout_below="@+id/imagen_list"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:id="@+id/contacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingLeft="5dp"
+        android:textSize="10dip"
+        android:layout_below="@+id/imagen_list"
+        android:layout_gravity="left|center"
+        android:layout_toRightOf="@+id/fecha"
+        />
+    <TextView
+        android:id="@+id/telf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingLeft="5dp"
+        android:textSize="10dip"
+        android:layout_below="@+id/imagen_list"
+        android:layout_gravity="left|center"
+        android:layout_toRightOf="@+id/contacto"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#ffd4d4d4">
+
+
+    <!-- Name Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="15dip"
+        android:background="#ffd3d3d3"
+        android:textColor="#ff252525"
+        android:textStyle="bold"
+         />
+
+    <!-- Input Name -->
+    <EditText android:id="@+id/input_nombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="...ingrese nombre"
+        android:textSize="14dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:background="@drawable/round_corner">
+
+        </EditText>
+
+    <!-- Price Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="15dip"
+        android:background="#ffd3d3d3"
+        android:textColor="#ff252525"
+        android:textStyle="bold"
+         />
+
+    <!-- Input Price -->
+    <EditText android:id="@+id/input_apellido"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="...ingrese Apellido"
+        android:singleLine="true"
+        android:textSize="14dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_marginBottom="15dip"
+        android:background="@drawable/round_corner">
+
+        </EditText>
+
+    <!-- Description Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="15dip"
+        android:background="#ffd3d3d3"
+        android:textColor="#ff252525"
+        android:singleLine="true"
+        android:textStyle="bold"
+        />
+
+    <!-- Input description -->
+    <EditText android:id="@+id/input_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:textSize="14dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:hint="...ingrese Email"
+        android:layout_marginBottom="15dip"
+        android:lines="1"
+        android:gravity="top"
+        android:background="@drawable/round_corner">
+
+    </EditText>
+
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Nacimiento"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="15dip"
+        android:background="#ffd3d3d3"
+        android:textColor="#ff252525"
+        android:singleLine="true"
+        android:textStyle="bold"/>
+
+
+    <!-- Input Name -->
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_weight="0.97"
+            android:textSize="14dip"
+            android:layout_margin="5dip"
+            android:hint="...ingrese fecha"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:background="@drawable/round_corner"
+            android:id="@+id/input_fecha">
+
+         </EditText>
+
+        <Button android:layout_height="34dp"
+            android:textSize="13dip"
+            android:id="@+id/btnCalendario" android:text="Calendario"
+            android:layout_width="100dp"></Button>
+    </LinearLayout>
+
+
+    <!-- Price Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="15dip"
+        android:background="#ffd3d3d3"
+        android:textColor="#ff252525"
+        android:textStyle="bold"
+         />
+
+    <!-- Input Price -->
+    <AutoCompleteTextView android:id="@+id/input_sexo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="...ingrese sexo"
+        android:textColor="#ff000000"
+        android:textSize="14dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:background="@drawable/round_corner"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:ems="10" >
+
+    </AutoCompleteTextView>
+
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Celular"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="15dip"
+        android:background="#ffd3d3d3"
+        android:textColor="#ff252525"
+        android:textStyle="bold"
+        />
+
+    <!-- Input Price -->
+    <EditText android:id="@+id/input_celular"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="...ingrese celular"
+        android:inputType="phone"
+        android:textSize="14dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:background="@drawable/round_corner"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true">
+
+        </EditText>
+
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Direccion"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="15dip"
+        android:background="#ffd3d3d3"
+        android:textColor="#ff252525"
+        android:textStyle="bold"
+        />
+
+    <!-- Input Price -->
+    <EditText android:id="@+id/input_direccion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:textSize="14dip"
+        android:hint="...ingrese dirección"
+        android:layout_marginBottom="15dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:background="@drawable/round_corner"
+        android:singleLine="true">
+
+    </EditText>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nick"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="15dip"
+        android:background="#ffd3d3d3"
+        android:textColor="#ff252525"
+        android:textStyle="bold"
+        />
+
+    <!-- Input Price -->
+    <EditText android:id="@+id/input_nik"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="...ingrese nick"
+        android:textSize="14dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_marginBottom="15dip"
+        android:background="@drawable/round_corner"
+        android:singleLine="true">
+
+    </EditText>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="15dip"
+        android:background="#ffd3d3d3"
+        android:textColor="#ff252525"
+        android:textStyle="bold"
+         />
+
+    <!-- Input Price -->
+    <EditText android:id="@+id/input_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:password="true"
+        android:textSize="14dp"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:background="@drawable/round_corner"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true">
+
+    </EditText>
+
+
+    <!-- Button Create Product -->
+    <Button android:id="@+id/btnAltaUsuario"
+        android:layout_width="136dp"
+        android:layout_height="26dp"
+        android:text="Registrarse"
+        android:textSize="15dip"
+        android:background="#222"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="5dp" />
+
+</LinearLayout>
+</ScrollView>

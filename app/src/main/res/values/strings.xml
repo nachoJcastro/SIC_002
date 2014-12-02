@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SIC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- FACEBOOK text -->
+    <string name="app_id">999936980033361</string>
+    <string name="update_status">Estado</string>
+    <string name="post_image">Imagen</string>
+    <string name="empty_slot">Empty Slot</string>
+    <string name="greeting_format">Hello, %s!</string>
+    <string name="greeting_no_user">Please select a user via the options menu</string>
+    <string name="menu_item_switch_user">Select User</string>
+    <string name="menu_item_clear_slot">Clear this slot</string>
+
+    <!-- GMAIL text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="app_id_google">AIzaSyAdZXitNlehvab238PSGnk9rw3xhYrPJpk</string>
+
+</resources>

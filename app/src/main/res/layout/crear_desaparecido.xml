@@ -1,0 +1,203 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!-- Name Label -->
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:background="#ff1483ff"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <!-- Input Name -->
+        <EditText android:id="@+id/input_nombre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:singleLine="true"
+            />
+        <!-- Name Label -->
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Apellido"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:background="#ff1483ff"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <!-- Input Name -->
+        <EditText android:id="@+id/input_apellido"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:singleLine="true"
+            />
+
+        <!-- Edad Label -->
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Edad"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:background="#ff1483ff"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <!-- Input Edad -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/input_edad"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Sexo Label -->
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sexo"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:background="#ff1483ff"
+            android:textColor="#fff"
+            android:singleLine="true"
+            android:textStyle="bold"/>
+
+        <!-- Input Sexo -->
+        <EditText android:id="@+id/input_sexo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:lines="1"
+            android:gravity="top"/>
+        <requestFocus />
+
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha Desaparicion"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:background="#ff1483ff"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <!-- Input Name -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/imput_fecha"
+            android:layout_gravity="center_horizontal" />
+
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ultimo Paradero"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:background="#ff1483ff"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <!-- Input Price -->
+        <EditText android:id="@+id/input_uparadero"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:singleLine="true"/>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre Contacto"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:background="#ff1483ff"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <!-- Input Price -->
+        <EditText android:id="@+id/input_ncontacto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:singleLine="true"/>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefono Contacto"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:background="#ff1483ff"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <!-- Input Price -->
+        <EditText android:id="@+id/input_tcontacto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:singleLine="true"/>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Relacion Contacto"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:background="#ff1483ff"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <!-- Input Price -->
+        <EditText android:id="@+id/input_rcontacto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:singleLine="true"/>
+
+        <Button android:id="@+id/btnCrearTema"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Reportar Desaparecido"
+            android:background="#222"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>
